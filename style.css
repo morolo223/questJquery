@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Press Start 2P';
+}
+
+body{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.head{
+    color: yellow;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+h2 {
+    margin-top: 1rem;
+}
+
+.start{
+    font-size: 2rem;
+    
+}
+
+a{
+    text-decoration: none;
+    color: red;
+}
+
+a:hover{
+    font-size: 3rem;
+}
+
+
+.animation{
+    animation: colorChange 3s infinite;
+}
+
+@keyframes colorChange{
+    0%{color: rgb(255,0, 0);}
+    25%{color: rgb(127,255, 0);}
+    50%{color: rgb(255,127, 0);}
+    75%{color: rgb(127,0, 255);}
+    100%{color: rgb(255,0, 0);}
+}
